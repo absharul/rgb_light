@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RGB light</string>
+    <string name="title_activity_fullscreen_red">FullscreenRedActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_fullscreen_green">FullscreenGreenActivity</string>
+    <string name="title_activity_fullscreen_blue">FullscreenBlueActivity</string>
+</resources>
