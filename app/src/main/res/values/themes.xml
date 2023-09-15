@@ -2,18 +2,9 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.RGBLight" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<!--         <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowFullscreen">true</item>
+
     </style>
 
-    <style name="Theme.RGBLight" parent="Base.Theme.RGBLight" />
-
-    <style name="Theme.RGBLight.Fullscreen" parent="Theme.RGBLight">
-        <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:windowBackground">@null</item>
-    </style>
-
-    <style name="ThemeOverlay.RGBLight.FullscreenContainer" parent="">
-        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
-        <item name="fullscreenTextColor">@color/light_blue_A200</item>
-    </style>
 </resources>

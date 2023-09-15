@@ -81,7 +81,7 @@ class RedActivity : AppCompatActivity() {
             val color = animation.animatedValue as Int
             colorView.setBackgroundColor(color)
         }
-        animator.duration = 500// Change color every 1 second
+        animator.duration = 5000// Change color every 1 second
         animator.repeatCount = ValueAnimator.INFINITE // Repeat indefinitely
         animator.start()
     }
